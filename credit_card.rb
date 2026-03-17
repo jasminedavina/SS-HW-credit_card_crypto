@@ -21,7 +21,7 @@ class CreditCard
   end
 
   # returns json string
-  def to_json
+  def to_json(*_args)
     {
       # TODO: setup the hash with all instance vairables to serialize into json
       number: @number,
